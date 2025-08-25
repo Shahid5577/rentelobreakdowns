@@ -1,8 +1,13 @@
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.env
-*.db
+.venv/
 venv/
+
+# Streamlit local state
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# OS
 .DS_Store
+Thumbs.db
